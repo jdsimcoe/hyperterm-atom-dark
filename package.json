@@ -1,14 +1,16 @@
 {
-  "name": "hyperterm-atom-dark",
+  "name": "hyperterm-one-dark",
   "version": "1.1.1",
-  "description": "Hyperterm theme based on Atom One Dark theme",
+  "description": "Hyperterm theme based on One Dark theme for Atom",
   "main": "index.js",
   "keywords": [
     "hyperterm",
     "hyperterm-theme",
     "colors",
-    "atom"
+    "atom",
+    "one",
+    "one-dark"
   ],
-  "author": "Mark Otto",
+  "author": "Jonathan Simcoe",
   "license": "MIT"
 }
