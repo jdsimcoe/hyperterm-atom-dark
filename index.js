@@ -1,4 +1,3 @@
-
 const backgroundColor = '#282c34'
 const foregroundColor = '#abb2bf'
 const cursorColor = foregroundColor
@@ -25,8 +24,6 @@ const colors = [
 ]
 
 exports.decorateConfig = config => {
-  console.log('Hi mom!')
-
   return Object.assign({}, config, {
     foregroundColor,
     backgroundColor,
@@ -35,8 +32,8 @@ exports.decorateConfig = config => {
     colors,
     termCSS: `
       ${config.termCSS || ''}
-      .cursor-node {
-        mix-blend-mode: difference;
+      * {
+        text-rendering: optimizeLegibility;
       }
     `,
     css: `
@@ -46,9 +43,19 @@ exports.decorateConfig = config => {
         right: 0;
         left: 0;
       }
+      .terms_terms {
+        margin-top: 42px;
+      }
       .tabs_list {
+        max-height: 42px;
         background-color: #21252b !important;
         border-bottom-color: rgba(0,0,0,.15) !important;
+      }
+      .tab_text {
+        height: 42px; font-size: 14px;
+      }
+      .tab_textInner {
+        top: 4px;
       }
       .tab_tab.tab_active {
         font-weight: 500;
