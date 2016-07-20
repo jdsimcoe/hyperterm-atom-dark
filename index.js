@@ -65,6 +65,9 @@ exports.decorateConfig = config => {
       .tab_tab.tab_active::before {
         border-bottom-color: ${backgroundColor};
       }
+      .tab_hasActivity {
+        color: #56b6c2;
+      }
     `
   })
 }

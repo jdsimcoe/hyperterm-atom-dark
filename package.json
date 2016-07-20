@@ -1,6 +1,6 @@
 {
   "name": "hyperterm-one-dark",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Hyperterm theme based on One Dark theme for Atom",
   "main": "index.js",
   "keywords": [
