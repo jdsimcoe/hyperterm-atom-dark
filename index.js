@@ -57,6 +57,9 @@ exports.decorateConfig = config => {
       .tab_textInner {
         top: 4px;
       }
+      .tab_hasActivity {
+        color: #56b6c2;
+      }
       .tab_tab.tab_active {
         font-weight: 500;
         background-color: ${backgroundColor};
@@ -64,9 +67,6 @@ exports.decorateConfig = config => {
       }
       .tab_tab.tab_active::before {
         border-bottom-color: ${backgroundColor};
-      }
-      .tab_hasActivity {
-        color: #56b6c2;
       }
     `
   })
